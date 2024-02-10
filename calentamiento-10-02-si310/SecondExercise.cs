@@ -62,6 +62,13 @@ namespace calentamiento_10_02_si310
                 Console.WriteLine(fibonacciArray[i]);
             }
 
+            Console.WriteLine("Secuencia en reversa: ");
+
+            for (int i = numbers-1; i >= 0; i--)
+            {
+                Console.WriteLine(fibonacciArray[i]);
+            }
+
             // con una lista
 
             Console.WriteLine("De forma dinamica: ");
