@@ -38,10 +38,7 @@ namespace calentamiento_10_02_si310
             for (int i = 2; i < n; i++)
             {
                 int nextFibonacciNumber = fibonacci[i - 1] + fibonacci[i - 2];
-                if (nextFibonacciNumber <= int.MaxValue) 
-                    fibonacci.Add(nextFibonacciNumber);
-                else
-                    break;
+                fibonacci.Add(nextFibonacciNumber);
             }
 
             return fibonacci;
