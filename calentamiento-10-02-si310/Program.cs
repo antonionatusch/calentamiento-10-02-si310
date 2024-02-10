@@ -4,7 +4,7 @@
         public static void Main(String[] args)
         {
             // FirstExercise.Demo();
-            SecondExercise.Demo();
+            // SecondExercise.Demo();
         }
     }
 }
