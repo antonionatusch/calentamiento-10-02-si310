@@ -6,8 +6,6 @@ using System.Threading.Tasks;
 
 namespace calentamiento_10_02_si310
 {
-
-
     public class SecondExercise
     {
 
